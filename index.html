@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script async src="index.js"></script>
+    <title>Exchange Rate</title>
+  </head>
+  <body>
+    <header>Exchange Rate App</header>
+    <div class="wrapper">
+      <div class="container">
+        <form>
+          <label for="rates">Choose a currency:</label>
+          <select name="rates" id="rates">
+            <option class="default" value="usd">USD</option>
+            <option value="cad">CAD</option>
+            <option value="eur">EUR</option>
+            <option value="aud">AUD</option>
+            <option value="chf">CHF</option>
+            <option value="nzd">NZD</option>
+            <option value="bgn">BGN</option>
+          </select>
+        </form>
+      </div>
+      <div class="arrows">
+        <span class="arrow">←</span>
+        <span class="arrow">→</span>
+      </div>
+      <div class="rate-container">
+        <div class="groups">
+          <h3>Group1</h3>
+          <div class="gr1"></div>
+          <span class="length1"></span>
+        </div class="groups">
+        <div class="groups">
+          <h3>Group 2</h3>
+          <div class="gr2"></div>
+          <span class="length2"></span>
+        </div>
+        <div class="groups">
+          <h3>Group 3</h3>
+          <div class="gr3"></div>
+          <span class="length3"></span>
+        </div>
+        <div>
+          <h3>Group 4</h3>
+          <div class="longest"></div>
+          <span class="length-longest"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
