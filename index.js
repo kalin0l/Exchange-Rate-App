@@ -147,6 +147,6 @@ window.addEventListener("DOMContentLoaded", function () {
   return loadDefaultCurrency(rates.value, selectAll);
 });
 
-rates.addEventListener("change", function (e) {
+rates.addEventListener("change", function () {
   return loadDefaultCurrency(rates.value, selectAll);
 });
